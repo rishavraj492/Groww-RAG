@@ -1,6 +1,11 @@
+// Dev talks to local Uvicorn. Production (same-origin Railway) uses relative /api.
+const _viteApiBase = import.meta.env.VITE_API_BASE_URL as string | undefined;
 const API_BASE =
-  (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, "") ||
-  "http://127.0.0.1:8000";
+  _viteApiBase !== undefined && _viteApiBase !== null
+    ? String(_viteApiBase).replace(/\/$/, "")
+    : import.meta.env.DEV
+      ? "http://127.0.0.1:8000"
+      : "";
 
 export type Citation = {
   url: string;

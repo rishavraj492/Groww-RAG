@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) assistant that answers **factual** questi
 
 **GitHub:** [https://github.com/rishavraj492/Groww-RAG](https://github.com/rishavraj492/Groww-RAG)
 
-**Live (Railway):** add your frontend URL here after deploy (e.g. `https://web-production-xxxx.up.railway.app`)
+**Live (Railway):** [https://groww-rag-production.up.railway.app](https://groww-rag-production.up.railway.app)
 
 ---
 

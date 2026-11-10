@@ -56,6 +56,7 @@ def parse_cors_origins(value: str | None) -> tuple[str, ...]:
 _BACKEND_DIR = Path(__file__).resolve().parent.parent
 _DEFAULT_FACTS_PATH = _BACKEND_DIR / "data" / "fixtures" / "scheme_facts.json"
 _DEFAULT_CHROMA_PATH = _BACKEND_DIR / "data" / "chroma"
+_DEFAULT_FRONTEND_DIST = _BACKEND_DIR / "frontend_dist"
 load_dotenv(_BACKEND_DIR / ".env")
 
 
@@ -75,5 +76,6 @@ LLM_MODEL = os.getenv("LLM_MODEL", DEFAULT_LLM_MODEL)
 LLM_TIMEOUT_SECONDS = float(os.getenv("LLM_TIMEOUT_SECONDS", str(DEFAULT_LLM_TIMEOUT_SECONDS)))
 FACTS_PATH = _env_path("FACTS_PATH", _DEFAULT_FACTS_PATH)
 CHROMA_PATH = _env_path("CHROMA_PATH", _DEFAULT_CHROMA_PATH)
+FRONTEND_DIST = _env_path("FRONTEND_DIST", _DEFAULT_FRONTEND_DIST)
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", DEFAULT_EMBEDDING_MODEL)
 CORS_ORIGINS = parse_cors_origins(os.getenv("CORS_ORIGINS"))

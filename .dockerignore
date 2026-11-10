@@ -1,0 +1,14 @@
+.git
+.github
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/.venv
+**/venv
+frontend/dist
+backend/.env
+**/*.pyc
+stitch_fund_facts_assistant_ui
+agent-transcripts
+*.md
+!README.md

@@ -3,6 +3,7 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from app.api.health import router as health_router
 from app.api.query import router as query_router
@@ -12,6 +13,7 @@ from app.config import (
     CORS_ORIGINS,
     EMBEDDING_MODEL,
     FACTS_PATH,
+    FRONTEND_DIST,
     LLM_API_KEY,
     LLM_BASE_URL,
     LLM_MODEL,
@@ -26,10 +28,12 @@ def create_app(
     facts_path: Path | None = None,
     chroma_path: Path | None = None,
     manifest_path: Path | None = None,
+    frontend_dist: Path | None = None,
 ) -> FastAPI:
     path = FACTS_PATH if facts_path is None else facts_path
     index_path = CHROMA_PATH if chroma_path is None else chroma_path
     manifest = path.with_name("manifest.json") if manifest_path is None else manifest_path
+    static_root = FRONTEND_DIST if frontend_dist is None else frontend_dist
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
@@ -70,6 +74,11 @@ def create_app(
     app.include_router(health_router, prefix="/api")
     app.include_router(schemes_router, prefix="/api")
     app.include_router(query_router, prefix="/api")
+
+    # Same-origin Railway deploy: serve the Vite build after API routes.
+    if static_root.is_dir() and (static_root / "index.html").is_file():
+        app.mount("/", StaticFiles(directory=static_root, html=True), name="frontend")
+
     return app
 
 
