@@ -1,4 +1,4 @@
-# Daily corpus refresh (Phase 8).
+﻿# Daily corpus refresh (Phase 8).
 #
 # Runs scripts/ingest.py --source live: scrape allowlisted pages, normalize and
 # clean labeled facts, chunk passages, embed with BAAI/bge-small-en-v1.5, and
@@ -84,3 +84,5 @@ jobs:
           ACCESSED_AT="$(python -c "import json; print(json.load(open('backend/data/manifest.json', encoding='utf-8')).get('accessed_at') or 'unknown')")"
           git commit -m "chore: refresh corpus from live ingest (${ACCESSED_AT})"
           git push
+
+
