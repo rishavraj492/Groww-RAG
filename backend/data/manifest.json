@@ -1,7 +1,7 @@
 {
   "accessed_at": "2026-11-10",
-  "source_mode": "fixture",
-  "passage_count": 4,
+  "source_mode": "live",
+  "passage_count": 32,
   "sources": [
     {
       "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
@@ -16,32 +16,32 @@
       "scheme_id": "hdfc-small-cap",
       "document_type": "scheme_page",
       "authority": "platform",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
       "scheme_id": "hdfc-large-cap",
       "document_type": "scheme_page",
       "authority": "platform",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
       "scheme_id": "hdfc-silver-etf-fof",
       "document_type": "scheme_page",
       "authority": "platform",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth",
       "scheme_id": "hdfc-multi-cap",
       "document_type": "scheme_page",
       "authority": "platform",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
@@ -49,7 +49,7 @@
       "document_type": "factsheet",
       "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "no labeled facts in official document"
     },
     {
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
@@ -57,7 +57,7 @@
       "document_type": "factsheet",
       "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "no labeled facts in official document"
     },
     {
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
@@ -65,7 +65,7 @@
       "document_type": "factsheet",
       "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "no labeled facts in official document"
     },
     {
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-silver-etf-fund-of-fund/direct",
@@ -73,7 +73,7 @@
       "document_type": "factsheet",
       "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "HTTP 404"
     },
     {
       "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-multi-cap-fund/direct",
@@ -81,31 +81,71 @@
       "document_type": "factsheet",
       "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "no labeled facts in official document"
     },
     {
       "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
       "scheme_id": "",
       "document_type": "regulatory",
       "authority": "official",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://investor.sebi.gov.in/riskometer.html",
       "scheme_id": "",
       "document_type": "regulatory",
       "authority": "official",
-      "status": "failed",
-      "error": "saved HTML fixture not found"
+      "status": "ok",
+      "error": null
     },
     {
       "url": "https://www.amfiindia.com/investor",
       "scheme_id": "",
       "document_type": "regulatory",
       "authority": "official",
+      "status": "ok",
+      "error": null
+    },
+    {
+      "url": "https://www.hdfcfund.com",
+      "scheme_id": "hdfc-mid-cap",
+      "document_type": "sid",
+      "authority": "official",
       "status": "failed",
-      "error": "saved HTML fixture not found"
+      "error": "no labeled facts in official document"
+    },
+    {
+      "url": "https://www.hdfcfund.com",
+      "scheme_id": "hdfc-small-cap",
+      "document_type": "sid",
+      "authority": "official",
+      "status": "failed",
+      "error": "no labeled facts in official document"
+    },
+    {
+      "url": "https://www.hdfcfund.com",
+      "scheme_id": "hdfc-large-cap",
+      "document_type": "sid",
+      "authority": "official",
+      "status": "failed",
+      "error": "no labeled facts in official document"
+    },
+    {
+      "url": "https://www.hdfcfund.com",
+      "scheme_id": "hdfc-silver-etf-fof",
+      "document_type": "sid",
+      "authority": "official",
+      "status": "failed",
+      "error": "no labeled facts in official document"
+    },
+    {
+      "url": "https://www.hdfcfund.com",
+      "scheme_id": "hdfc-multi-cap",
+      "document_type": "sid",
+      "authority": "official",
+      "status": "failed",
+      "error": "no labeled facts in official document"
     }
   ],
   "embedding_model": "BAAI/bge-small-en-v1.5"

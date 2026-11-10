@@ -6,51 +6,86 @@
       "category": "Equity - Mid Cap",
       "riskometer": "Very High",
       "expense_ratio": "0.74%",
-      "exit_load": "1% if redeemed within 1 year",
+      "exit_load": "Exit load of 1% if redeemed within 1 year.",
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
-      "minimum_additional": null,
-      "nav_value": "₹185.42",
-      "nav_date": "2026-10-30",
-      "aum": "₹45,231.18 Cr",
+      "minimum_additional": "₹100",
+      "nav_value": "₹227.10",
+      "nav_date": "2026-11-09",
+      "aum": "₹101,856.06 Cr",
       "benchmark": "NIFTY Midcap 150 TRI",
-      "fund_manager": "Chirag Setalvad is the current fund manager.",
-      "stamp_duty": "Stamp duty of 0.005% is applicable on purchase of mutual fund units.",
-      "tax_note": "Equity mutual funds are taxed as per prevailing capital gains rules. This is the page's general description.",
+      "fund_manager": "Chirag Setalvad and Dhruv Muchhal are the current fund managers.",
+      "stamp_duty": "0.005% (from July 1st, 2020)",
+      "tax_note": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
       "holdings": [
         {
-          "name": "Persistent Systems Ltd",
-          "sector": "Technology",
-          "weight": "4.20%"
+          "name": "Repo",
+          "sector": "Unspecified",
+          "weight": "8.37%"
         },
         {
-          "name": "Max Healthcare Institute Ltd",
+          "name": "The Federal Bank Ltd",
+          "sector": "Financial",
+          "weight": "3.98%"
+        },
+        {
+          "name": "AU Small Finance Bank Ltd",
+          "sector": "Financial",
+          "weight": "3.94%"
+        },
+        {
+          "name": "Max Financial Services Ltd",
+          "sector": "Financial",
+          "weight": "3.52%"
+        },
+        {
+          "name": "Ipca Laboratories Ltd",
           "sector": "Healthcare",
-          "weight": "3.10%"
+          "weight": "3.43%"
         },
         {
-          "name": "Indian Hotels Company Ltd",
-          "sector": "Consumer",
-          "weight": "2.80%"
+          "name": "Glenmark Pharmaceuticals Ltd",
+          "sector": "Healthcare",
+          "weight": "3.07%"
+        },
+        {
+          "name": "Balkrishna Industries Ltd",
+          "sector": "Consumer Discretionary",
+          "weight": "2.98%"
+        },
+        {
+          "name": "Indian Bank",
+          "sector": "Financial",
+          "weight": "2.92%"
+        },
+        {
+          "name": "Coforge Ltd",
+          "sector": "Technology",
+          "weight": "2.68%"
+        },
+        {
+          "name": "Fortis Healthcare Ltd",
+          "sector": "Healthcare",
+          "weight": "2.40%"
         }
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
       "authority": "platform",
       "accessed_at": "2026-11-10",
-      "sid_url": null
+      "sid_url": "https://www.hdfcfund.com"
     },
     {
       "scheme_id": "hdfc-small-cap",
       "name": "HDFC Small Cap Fund Direct Growth",
       "category": "Equity - Small Cap",
       "riskometer": "Very High",
-      "expense_ratio": "0.80%",
+      "expense_ratio": "0.79%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹148.62",
-      "nav_date": "2026-10-30",
+      "nav_value": "₹153.63",
+      "nav_date": "2026-11-09",
       "aum": "₹40,800.81 Cr",
       "benchmark": "BSE 250 SmallCap TRI",
       "fund_manager": "Dhruv Muchhal and Chirag Setalvad are the current fund managers.",
@@ -110,7 +145,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-10-31",
+      "accessed_at": "2026-11-10",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -118,13 +153,13 @@
       "name": "HDFC Large Cap Fund Direct Growth",
       "category": "Equity - Large Cap",
       "riskometer": "Very High",
-      "expense_ratio": "1.02%",
+      "expense_ratio": "1.00%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹1,164.95",
-      "nav_date": "2026-10-30",
+      "nav_value": "₹1,260.67",
+      "nav_date": "2026-11-09",
       "aum": "₹37,293.95 Cr",
       "benchmark": "NIFTY 100 TRI",
       "fund_manager": "Rahul Baijal and Dhruv Muchhal are the current fund managers.",
@@ -184,7 +219,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-10-31",
+      "accessed_at": "2026-11-10",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -197,8 +232,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹29.88",
-      "nav_date": "2026-10-30",
+      "nav_value": "₹30.46",
+      "nav_date": "2026-11-09",
       "aum": "₹4,497.00 Cr",
       "benchmark": "Domestic Price of Silver",
       "fund_manager": "Arun Agarwal and Nandita Menezes are the current fund managers.",
@@ -223,7 +258,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-10-31",
+      "accessed_at": "2026-11-10",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -231,13 +266,13 @@
       "name": "HDFC Multi Cap Fund Direct Growth",
       "category": "Equity - Multi Cap",
       "riskometer": "Very High",
-      "expense_ratio": "0.96%",
+      "expense_ratio": "0.95%",
       "exit_load": "Exit load of 1% if redeemed within 1 year.",
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹18.50",
-      "nav_date": "2026-10-30",
+      "nav_value": "₹19.77",
+      "nav_date": "2026-11-09",
       "aum": "₹19,490.01 Cr",
       "benchmark": "Nifty 500 Multicap 50:25:25 TRI",
       "fund_manager": "Amar Kalkundrikar and Dhruv Muchhal are the current fund managers.",
@@ -297,7 +332,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-10-31",
+      "accessed_at": "2026-11-10",
       "sid_url": "https://www.hdfcfund.com"
     }
   ]
