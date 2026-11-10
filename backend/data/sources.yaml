@@ -1,0 +1,58 @@
+sources:
+  - scheme_id: hdfc-mid-cap
+    url: "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+    document_type: scheme_page
+    authority: platform
+  - scheme_id: hdfc-small-cap
+    url: "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth"
+    document_type: scheme_page
+    authority: platform
+  - scheme_id: hdfc-large-cap
+    url: "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+    document_type: scheme_page
+    authority: platform
+  - scheme_id: hdfc-silver-etf-fof
+    url: "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth"
+    document_type: scheme_page
+    authority: platform
+  - scheme_id: hdfc-multi-cap
+    url: "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth"
+    document_type: scheme_page
+    authority: platform
+
+  - scheme_id: hdfc-mid-cap
+    url: "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct"
+    document_type: factsheet
+    authority: official
+  - scheme_id: hdfc-small-cap
+    url: "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct"
+    document_type: factsheet
+    authority: official
+  - scheme_id: hdfc-large-cap
+    url: "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct"
+    document_type: factsheet
+    authority: official
+  - scheme_id: hdfc-silver-etf-fof
+    url: "https://www.hdfcfund.com/explore/mutual-funds/hdfc-silver-etf-fund-of-fund/direct"
+    document_type: factsheet
+    authority: official
+  - scheme_id: hdfc-multi-cap
+    url: "https://www.hdfcfund.com/explore/mutual-funds/hdfc-multi-cap-fund/direct"
+    document_type: factsheet
+    authority: official
+
+  - scheme_id: ""
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio"
+    document_type: regulatory
+    authority: official
+    topic: definition
+  - scheme_id: ""
+    url: "https://investor.sebi.gov.in/riskometer.html"
+    document_type: regulatory
+    authority: official
+    topic: definition
+  - scheme_id: ""
+    url: "https://www.amfiindia.com/investor"
+    document_type: regulatory
+    authority: official
+    topic: elss_lock_in

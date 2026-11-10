@@ -1,0 +1,56 @@
+{
+  "schemes": [
+    {
+      "scheme_id": "hdfc-mid-cap",
+      "name": "HDFC Mid Cap Fund Direct Growth",
+      "category": "Equity - Mid Cap",
+      "riskometer": "Very High",
+      "expense_ratio": "0.74%",
+      "exit_load": "1% if redeemed within 1 year",
+      "minimum_sip": "₹100",
+      "minimum_lumpsum": "₹100",
+      "minimum_additional": "₹100",
+      "nav_value": "₹185.42",
+      "nav_date": "2026-10-30",
+      "aum": "₹45,231.18 Cr",
+      "benchmark": "NIFTY Midcap 150 TRI",
+      "fund_manager": "Chirag Setalvad is the current fund manager.",
+      "stamp_duty": "Stamp duty of 0.005% is applicable on purchase of mutual fund units.",
+      "tax_note": "Equity mutual funds are taxed as per prevailing capital gains rules. This is the page's general description.",
+      "holdings": [
+        {"name": "Persistent Systems Ltd", "sector": "Technology", "weight": "4.20%"},
+        {"name": "Max Healthcare Institute Ltd", "sector": "Healthcare", "weight": "3.10%"}
+      ],
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "authority": "platform",
+      "accessed_at": "2026-10-31",
+      "sid_url": null
+    },
+    {
+      "scheme_id": "hdfc-small-cap",
+      "name": "HDFC Small Cap Fund Direct Growth",
+      "category": "Equity - Small Cap",
+      "riskometer": "Very High",
+      "expense_ratio": null,
+      "exit_load": "1% if redeemed within 1 year",
+      "minimum_sip": "₹100",
+      "minimum_lumpsum": "₹100",
+      "minimum_additional": "₹100",
+      "nav_value": "₹142.15",
+      "nav_date": "2026-10-30",
+      "aum": "₹32,100 Cr",
+      "benchmark": "NIFTY Smallcap 250 TRI",
+      "fund_manager": "The current fund manager is Roshi Jain.",
+      "stamp_duty": "Stamp duty of 0.005% is applicable on purchase of mutual fund units.",
+      "tax_note": "Equity mutual funds are taxed as per prevailing capital gains rules. This is the page's general description.",
+      "holdings": [
+        {"name": "Carborundum Universal Ltd", "sector": "Industrials", "weight": "3.40%"},
+        {"name": "KPIT Technologies Ltd", "sector": "Technology", "weight": "2.90%"}
+      ],
+      "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "authority": "platform",
+      "accessed_at": "2026-10-31",
+      "sid_url": null
+    }
+  ]
+}

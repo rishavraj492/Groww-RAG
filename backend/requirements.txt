@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+httpx
+PyYAML
+pytest
+python-dotenv
+beautifulsoup4
+pypdf
+chromadb
+sentence-transformers

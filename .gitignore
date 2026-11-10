@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+frontend/dist/
+
+# Phase 8 commits the live corpus so the daily Action can publish refreshes.
+# Keep local secrets and caches out of git; track facts, passages, manifest,
+# raw captures, and Chroma under backend/data/ when present.

@@ -1,0 +1,86 @@
+# Daily corpus refresh (Phase 8).
+#
+# Runs scripts/ingest.py --source live: scrape allowlisted pages, normalize and
+# clean labeled facts, chunk passages, embed with BAAI/bge-small-en-v1.5, and
+# write the persistent Chroma index. Does not call Groq and does not start the API.
+#
+# Requirements:
+# - Workflow permission contents: write (or a PAT) so the job can push to the
+#   default branch after a successful refresh.
+# - No LLM_API_KEY is required for this job.
+#
+# Schedule is 10:00 Asia/Kolkata (IST) = 04:30 UTC.
+
+name: Daily corpus refresh
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-corpus-refresh
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/torch
+          key: ${{ runner.os }}-bge-small-en-v1.5-${{ hashFiles('backend/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-bge-small-en-v1.5-
+
+      - name: Install backend dependencies
+        run: pip install -r requirements.txt
+
+      - name: Live ingest allowlisted corpus
+        run: python scripts/ingest.py --source live
+
+      - name: Validate required Groww pages and passage index
+        run: python scripts/validate_ingest_manifest.py --manifest data/manifest.json
+
+      - name: Commit and push refreshed corpus
+        working-directory: .
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- \
+            backend/data/scheme_facts.json \
+            backend/data/passages.json \
+            backend/data/manifest.json \
+            backend/data/raw \
+            backend/data/chroma
+
+          if git diff --staged --quiet; then
+            echo "Corpus unchanged; skipping commit."
+            exit 0
+          fi
+
+          ACCESSED_AT="$(python -c "import json; print(json.load(open('backend/data/manifest.json', encoding='utf-8')).get('accessed_at') or 'unknown')")"
+          git commit -m "chore: refresh corpus from live ingest (${ACCESSED_AT})"
+          git push
