@@ -10,9 +10,9 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹227.10",
-      "nav_date": "2026-11-09",
-      "aum": "₹101,856.06 Cr",
+      "nav_value": "₹229.55",
+      "nav_date": "2026-11-11",
+      "aum": "₹100,687.07 Cr",
       "benchmark": "NIFTY Midcap 150 TRI",
       "fund_manager": "Chirag Setalvad and Dhruv Muchhal are the current fund managers.",
       "stamp_duty": "0.005% (from July 1st, 2020)",
@@ -21,57 +21,57 @@
         {
           "name": "Repo",
           "sector": "Unspecified",
-          "weight": "8.37%"
+          "weight": "7.02%"
         },
         {
           "name": "The Federal Bank Ltd",
           "sector": "Financial",
-          "weight": "3.98%"
-        },
-        {
-          "name": "AU Small Finance Bank Ltd",
-          "sector": "Financial",
-          "weight": "3.94%"
-        },
-        {
-          "name": "Max Financial Services Ltd",
-          "sector": "Financial",
-          "weight": "3.52%"
+          "weight": "4.31%"
         },
         {
           "name": "Ipca Laboratories Ltd",
           "sector": "Healthcare",
-          "weight": "3.43%"
+          "weight": "3.47%"
         },
         {
-          "name": "Glenmark Pharmaceuticals Ltd",
-          "sector": "Healthcare",
-          "weight": "3.07%"
-        },
-        {
-          "name": "Balkrishna Industries Ltd",
-          "sector": "Consumer Discretionary",
-          "weight": "2.98%"
+          "name": "AU Small Finance Bank Ltd",
+          "sector": "Financial",
+          "weight": "3.47%"
         },
         {
           "name": "Indian Bank",
           "sector": "Financial",
-          "weight": "2.92%"
+          "weight": "3.17%"
         },
         {
           "name": "Coforge Ltd",
           "sector": "Technology",
-          "weight": "2.68%"
+          "weight": "3.17%"
         },
         {
-          "name": "Fortis Healthcare Ltd",
+          "name": "Max Financial Services Ltd",
+          "sector": "Financial",
+          "weight": "3.11%"
+        },
+        {
+          "name": "Glenmark Pharmaceuticals Ltd",
           "sector": "Healthcare",
-          "weight": "2.40%"
+          "weight": "3.06%"
+        },
+        {
+          "name": "Balkrishna Industries Ltd",
+          "sector": "Consumer Discretionary",
+          "weight": "2.95%"
+        },
+        {
+          "name": "Marico Ltd",
+          "sector": "Consumer Staples",
+          "weight": "2.54%"
         }
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-11",
+      "accessed_at": "2026-11-12",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -84,9 +84,9 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹153.63",
-      "nav_date": "2026-11-09",
-      "aum": "₹40,800.81 Cr",
+      "nav_value": "₹155.25",
+      "nav_date": "2026-11-11",
+      "aum": "₹38,960.36 Cr",
       "benchmark": "BSE 250 SmallCap TRI",
       "fund_manager": "Dhruv Muchhal and Chirag Setalvad are the current fund managers.",
       "stamp_duty": "0.005% (from July 1st, 2020)",
@@ -95,57 +95,57 @@
         {
           "name": "Repo",
           "sector": "Unspecified",
-          "weight": "10.03%"
+          "weight": "9.97%"
         },
         {
           "name": "Firstsource Solutions Ltd",
           "sector": "Industrials",
-          "weight": "3.68%"
+          "weight": "4.41%"
         },
         {
           "name": "Aster DM Healthcare Ltd",
           "sector": "Healthcare",
-          "weight": "3.37%"
+          "weight": "3.45%"
         },
         {
           "name": "Gabriel India Ltd",
           "sector": "Consumer Discretionary",
-          "weight": "3.09%"
-        },
-        {
-          "name": "eClerx Services Ltd",
-          "sector": "Technology",
-          "weight": "2.92%"
+          "weight": "3.36%"
         },
         {
           "name": "Bank Of Baroda",
           "sector": "Financial",
-          "weight": "2.65%"
+          "weight": "2.87%"
         },
         {
-          "name": "Krishna Institute Of Medical Sciences Ltd",
-          "sector": "Healthcare",
-          "weight": "2.04%"
+          "name": "eClerx Services Ltd",
+          "sector": "Technology",
+          "weight": "2.62%"
         },
         {
-          "name": "Apar Industries Ltd",
-          "sector": "Diversified",
-          "weight": "1.92%"
+          "name": "PVR Ltd",
+          "sector": "Consumer Discretionary",
+          "weight": "2.21%"
         },
         {
           "name": "Indian Bank",
           "sector": "Financial",
-          "weight": "1.91%"
+          "weight": "2.15%"
         },
         {
-          "name": "Pearl Global Industries Ltd",
-          "sector": "Consumer Discretionary",
-          "weight": "1.90%"
+          "name": "Krishna Institute Of Medical Sciences Ltd",
+          "sector": "Healthcare",
+          "weight": "2.01%"
+        },
+        {
+          "name": "Eris Lifesciences Ltd",
+          "sector": "Healthcare",
+          "weight": "1.92%"
         }
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-11",
+      "accessed_at": "2026-11-12",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -158,9 +158,9 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹1,260.67",
-      "nav_date": "2026-11-09",
-      "aum": "₹37,293.95 Cr",
+      "nav_value": "₹1,269.86",
+      "nav_date": "2026-11-11",
+      "aum": "₹37,466.30 Cr",
       "benchmark": "NIFTY 100 TRI",
       "fund_manager": "Rahul Baijal and Dhruv Muchhal are the current fund managers.",
       "stamp_duty": "0.005% (from July 1st, 2020)",
@@ -169,57 +169,57 @@
         {
           "name": "ICICI Bank Ltd",
           "sector": "Financial",
-          "weight": "9.79%"
-        },
-        {
-          "name": "HDFC Bank Ltd",
-          "sector": "Financial",
-          "weight": "7.36%"
+          "weight": "10.30%"
         },
         {
           "name": "Bharti Airtel Ltd",
           "sector": "Technology",
-          "weight": "6.46%"
+          "weight": "7.23%"
+        },
+        {
+          "name": "HDFC Bank Ltd",
+          "sector": "Financial",
+          "weight": "7.17%"
         },
         {
           "name": "Kotak Mahindra Bank Ltd",
           "sector": "Financial",
-          "weight": "6.08%"
+          "weight": "6.70%"
         },
         {
           "name": "Titan Company Ltd",
           "sector": "Consumer Discretionary",
-          "weight": "5.07%"
-        },
-        {
-          "name": "Reliance Industries Ltd",
-          "sector": "Energy & Utilities",
-          "weight": "4.76%"
+          "weight": "4.88%"
         },
         {
           "name": "Torrent Pharmaceuticals Ltd",
           "sector": "Healthcare",
-          "weight": "4.09%"
+          "weight": "3.92%"
         },
         {
           "name": "Axis Bank Ltd",
           "sector": "Financial",
-          "weight": "3.52%"
+          "weight": "3.48%"
+        },
+        {
+          "name": "Repo",
+          "sector": "Unspecified",
+          "weight": "3.48%"
+        },
+        {
+          "name": "Reliance Industries Ltd",
+          "sector": "Energy & Utilities",
+          "weight": "3.12%"
         },
         {
           "name": "Bajaj Finserv Ltd",
           "sector": "Financial",
-          "weight": "3.05%"
-        },
-        {
-          "name": "Bajaj Auto Ltd",
-          "sector": "Consumer Discretionary",
-          "weight": "2.81%"
+          "weight": "2.93%"
         }
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-11",
+      "accessed_at": "2026-11-12",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -232,8 +232,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹30.46",
-      "nav_date": "2026-11-09",
+      "nav_value": "₹30.51",
+      "nav_date": "2026-11-11",
       "aum": "₹4,497.00 Cr",
       "benchmark": "Domestic Price of Silver",
       "fund_manager": "Arun Agarwal and Nandita Menezes are the current fund managers.",
@@ -258,7 +258,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-11",
+      "accessed_at": "2026-11-12",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -271,28 +271,28 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹19.77",
-      "nav_date": "2026-11-09",
-      "aum": "₹19,490.01 Cr",
+      "nav_value": "₹19.97",
+      "nav_date": "2026-11-11",
+      "aum": "₹19,080.08 Cr",
       "benchmark": "Nifty 500 Multicap 50:25:25 TRI",
       "fund_manager": "Amar Kalkundrikar and Dhruv Muchhal are the current fund managers.",
       "stamp_duty": "0.005% (from July 1st, 2020)",
       "tax_note": "If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.",
       "holdings": [
         {
-          "name": "HDFC Bank Ltd",
-          "sector": "Financial",
-          "weight": "3.93%"
-        },
-        {
           "name": "ICICI Bank Ltd",
           "sector": "Financial",
-          "weight": "3.66%"
+          "weight": "3.96%"
         },
         {
-          "name": "Axis Bank Ltd",
+          "name": "HDFC Bank Ltd",
           "sector": "Financial",
-          "weight": "2.44%"
+          "weight": "3.92%"
+        },
+        {
+          "name": "Bharti Airtel Ltd",
+          "sector": "Technology",
+          "weight": "2.59%"
         },
         {
           "name": "Reliance Industries Ltd",
@@ -300,39 +300,39 @@
           "weight": "2.41%"
         },
         {
-          "name": "Bharti Airtel Ltd",
-          "sector": "Technology",
-          "weight": "2.13%"
-        },
-        {
           "name": "Zomato Ltd",
           "sector": "Technology",
-          "weight": "2.13%"
+          "weight": "2.34%"
         },
         {
-          "name": "Britannia Industries Ltd",
-          "sector": "Consumer Staples",
-          "weight": "2.05%"
+          "name": "Axis Bank Ltd",
+          "sector": "Financial",
+          "weight": "2.23%"
         },
         {
           "name": "Kotak Mahindra Bank Ltd",
           "sector": "Financial",
-          "weight": "1.92%"
+          "weight": "2.17%"
         },
         {
-          "name": "State Bank of India",
-          "sector": "Financial",
-          "weight": "1.77%"
+          "name": "Britannia Industries Ltd",
+          "sector": "Consumer Staples",
+          "weight": "2.02%"
         },
         {
           "name": "NTPC Ltd",
           "sector": "Energy & Utilities",
-          "weight": "1.72%"
+          "weight": "1.82%"
+        },
+        {
+          "name": "State Bank of India",
+          "sector": "Financial",
+          "weight": "1.81%"
         }
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-11",
+      "accessed_at": "2026-11-12",
       "sid_url": "https://www.hdfcfund.com"
     }
   ]
