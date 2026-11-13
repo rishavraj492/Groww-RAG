@@ -10,8 +10,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹229.55",
-      "nav_date": "2026-11-11",
+      "nav_value": "₹230.66",
+      "nav_date": "2026-11-12",
       "aum": "₹100,687.07 Cr",
       "benchmark": "NIFTY Midcap 150 TRI",
       "fund_manager": "Chirag Setalvad and Dhruv Muchhal are the current fund managers.",
@@ -71,7 +71,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-12",
+      "accessed_at": "2026-11-13",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -84,8 +84,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹155.25",
-      "nav_date": "2026-11-11",
+      "nav_value": "₹156.99",
+      "nav_date": "2026-11-12",
       "aum": "₹38,960.36 Cr",
       "benchmark": "BSE 250 SmallCap TRI",
       "fund_manager": "Dhruv Muchhal and Chirag Setalvad are the current fund managers.",
@@ -145,7 +145,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-12",
+      "accessed_at": "2026-11-13",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -158,8 +158,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹1,269.86",
-      "nav_date": "2026-11-11",
+      "nav_value": "₹1,274.09",
+      "nav_date": "2026-11-12",
       "aum": "₹37,466.30 Cr",
       "benchmark": "NIFTY 100 TRI",
       "fund_manager": "Rahul Baijal and Dhruv Muchhal are the current fund managers.",
@@ -219,7 +219,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-12",
+      "accessed_at": "2026-11-13",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -232,9 +232,9 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹30.51",
-      "nav_date": "2026-11-11",
-      "aum": "₹4,497.00 Cr",
+      "nav_value": "₹29.59",
+      "nav_date": "2026-11-12",
+      "aum": "₹3,787.89 Cr",
       "benchmark": "Domestic Price of Silver",
       "fund_manager": "Arun Agarwal and Nandita Menezes are the current fund managers.",
       "stamp_duty": "0.005% (from July 1st, 2020)",
@@ -258,7 +258,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-12",
+      "accessed_at": "2026-11-13",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -271,8 +271,8 @@
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
       "minimum_additional": "₹100",
-      "nav_value": "₹19.97",
-      "nav_date": "2026-11-11",
+      "nav_value": "₹20.10",
+      "nav_date": "2026-11-12",
       "aum": "₹19,080.08 Cr",
       "benchmark": "Nifty 500 Multicap 50:25:25 TRI",
       "fund_manager": "Amar Kalkundrikar and Dhruv Muchhal are the current fund managers.",
@@ -332,7 +332,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-12",
+      "accessed_at": "2026-11-13",
       "sid_url": "https://www.hdfcfund.com"
     }
   ]
