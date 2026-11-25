@@ -71,7 +71,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-24",
+      "accessed_at": "2026-11-25",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -145,7 +145,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-24",
+      "accessed_at": "2026-11-25",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -153,7 +153,7 @@
       "name": "HDFC Large Cap Fund Direct Growth",
       "category": "Equity - Large Cap",
       "riskometer": "Very High",
-      "expense_ratio": "0.99%",
+      "expense_ratio": "0.98%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "minimum_sip": "₹100",
       "minimum_lumpsum": "₹100",
@@ -219,7 +219,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-24",
+      "accessed_at": "2026-11-25",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -258,7 +258,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-24",
+      "accessed_at": "2026-11-25",
       "sid_url": "https://www.hdfcfund.com"
     },
     {
@@ -332,7 +332,7 @@
       ],
       "source_url": "https://groww.in/mutual-funds/hdfc-multi-cap-fund-direct-growth",
       "authority": "platform",
-      "accessed_at": "2026-11-24",
+      "accessed_at": "2026-11-25",
       "sid_url": "https://www.hdfcfund.com"
     }
   ]
